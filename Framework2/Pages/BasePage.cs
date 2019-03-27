@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 
 namespace Framework2.Pages
 {
-    class BasePage
+   public class BasePage
     {
         public BasePage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);
         }
+
+   
     }
 }
